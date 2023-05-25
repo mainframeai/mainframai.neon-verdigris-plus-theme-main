@@ -1,0 +1,23 @@
+{
+  "name": "neon-verdigris-plus-theme",
+  "displayName": "Neon VerdigrisPlus Theme",
+  "description": "A minimal dark a little more colorful monochrome theme with green highlights",
+  "version": "0.3.0",
+  "publisher": "martin adelstein",
+ 
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Verdigris Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-verdigris-plus-color-theme.json"
+      }
+    ]
+  }
+}
