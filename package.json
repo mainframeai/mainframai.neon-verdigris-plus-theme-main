@@ -2,12 +2,18 @@
   "name": "neon-verdigris-plus-theme",
   "displayName": "Neon VerdigrisPlus Theme",
   "description": "A minimal dark a little more colorful monochrome theme with green highlights",
-  "version": "0.3.0",
-  "publisher": "martin adelstein",
+  "version": "0.3.1",
+  "publisher": "MartinAdelstein",
  
   "engines": {
     "vscode": "^1.28.0"
   },
+	"homepage": " https://github.com/mainframeai/mainframai.neon-verdigris-plus-theme-main",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mainframeai/mainframai.neon-verdigris-plus-theme-main.git"
+	},
+ 
   "categories": [
     "Themes"
   ],
