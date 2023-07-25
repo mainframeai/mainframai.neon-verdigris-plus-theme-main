@@ -298,7 +298,7 @@
       "name": "De-emphasize comments",
       "scope": "comment",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#65737e"
       }
     },
@@ -314,7 +314,7 @@
       "name": "Emphasize strings",
       "scope": "string",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#00ef97"
       }
     },
@@ -328,7 +328,7 @@
       "name": "Emphasize constants",
       "scope": ["constant.language", "constant.numeric"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#00ef97"
       }
     },
@@ -336,12 +336,12 @@
       "name": "De-emphasize most keywords",
       "scope": ["keyword - keyword.operator", "keyword.control", "storage"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#65737e"
       }
     },
     {
-      "scope": ["storage.type",	"storage.modifier"],
+      "scope": ["storage.type", "storage.modifier"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#C792EA"
@@ -409,14 +409,14 @@
     {
       "scope": "meta.function-call",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#c0c5ce"
       }
     },
     {
       "scope": "variable.parameter",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#c0c5ce"
       }
     },
@@ -503,7 +503,7 @@
     {
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#dfe1e8"
       }
     },
@@ -578,14 +578,14 @@
       "name": "Groovy: emphasize method keys",
       "scope": "constant.other.key.groovy",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#c0c5ce"
       }
     },
     {
       "scope": "source.terraform.embedded.source",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#65737e"
       }
     },
@@ -650,7 +650,7 @@
     {
       "scope": "entity.other.attribute-name.pseudo-element.css",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#00ef97"
       }
     },
@@ -676,80 +676,67 @@
       }
     },
     {
-			"name": "Tag, String",
-			"scope": [
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-			
-			],
-			"settings": {
-				"foreground": "#bb88ff"
-			}
-		},
+      "name": "Tag, String",
+      "scope": [
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#bb88ff"
+      }
+    },
 
     {
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#ffcc66"
-			}
-		},
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#ffcc66"
+      }
+    },
     {
-			"name": "Attributes, Objects",
-			"scope": [
-				"entity.other.attribute-name",
-				"variable.other",
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
+      "name": "Attributes, Objects",
+      "scope": ["entity.other.attribute-name", "variable.other"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
     {
-			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-	
-			],
-			"settings": {
-				"foreground": "#bb88ff"
-			}
-		},
+      "name": "Operator, Misc",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#bb88ff"
+      }
+    },
     {
-			"name": "Operator, Misc12",
-			"scope": [
-				"constant.other.color",
-	
-				"punctuation.separator.inheritance.php",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution",
-				"variable.other.property",
-	
-			],
-			"settings": {
-				"foreground": "#00bbff"
-			}
-		},
+      "name": "Operator, Misc12",
+      "scope": [
+        "constant.other.color",
+
+        "punctuation.separator.inheritance.php",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#00bbff"
+      }
+    },
     {
-			"name": "Operator, Misc12 Meta Tag",
-			"scope": [
-        "meta.tag",
-	
-			],
-			"settings": {
-      
+      "name": "Operator, Misc12 Meta Tag",
+      "scope": ["meta.tag"],
+      "settings": {
         "foreground": "#c0c5ce"
-			}
-		},
-
+      }
+    }
   ]
 }
