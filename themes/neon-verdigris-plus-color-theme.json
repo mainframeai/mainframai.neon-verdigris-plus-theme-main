@@ -30,6 +30,7 @@
     "dropdown.foreground": "#a7adba",
     "dropdown.listBackground": "#21252d",
     "editor.background": "#2b303b",
+    "editor.background": "#262b35",
     "editor.findMatchBackground": "#65737e",
     "editor.findMatchHighlightBackground": "#65737ea0",
     "editor.findRangeHighlightBackground": "#343d46a0",
@@ -382,7 +383,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#82AAFF"
+        "foreground": "#4d85ff"
       }
     },
     {
@@ -460,7 +461,7 @@
     {
       "scope": "emphasis",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -476,9 +477,9 @@
       }
     },
     {
-      "scope": "markup.italic",
+      "scope": "markup.normal",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -519,7 +520,7 @@
       "scope": [
         "beginning.punctuation.definition.list.markdown",
         "punctuation.definition.bold.markdown",
-        "punctuation.definition.italic.markdown",
+        "punctuation.definition.normal.markdown",
         "punctuation.definition.raw.markdown"
       ],
       "settings": {
@@ -621,7 +622,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#82AAFF"
+        "foreground": "#4d85ff"
       }
     },
     {
@@ -683,7 +684,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#bb88ff"
+        "foreground": "#9e54ff"
       }
     },
 
@@ -699,21 +700,21 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ffcc66"
+        "foreground": "#ffac07"
       }
     },
     {
       "name": "Attributes, Objects",
       "scope": ["entity.other.attribute-name", "variable.other"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#4d85ff"
       }
     },
     {
       "name": "Operator, Misc",
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#bb88ff"
+        "foreground": "#9e54ff"
       }
     },
     {
